@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "delve-blog-posts-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/delveBlogPosts/DelveBlogPostsWebPart.js",
+          "manifest": "./src/webparts/delveBlogPosts/DelveBlogPostsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DelveBlogPostsWebPartStrings": "lib/webparts/delveBlogPosts/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
